@@ -24,7 +24,7 @@ public class SoccerLeagueRanking {
             String line;
 
             while ((line = br.readLine()) != null) {
-                // Example line: "Liverpool 3, ManchesterUnited 3"
+                // Example line: "Liverpool 3", "ManchesterUnited 3"
                 String[] parts = line.split(",");
                 String[] team1 = parts[0].trim().split(" ");
                 String[] team2 = parts[1].trim().split(" ");
